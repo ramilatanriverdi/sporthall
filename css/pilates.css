@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+
+    width: auto;
+    height: 3000px;
+    background-color: #6617cb;
+    background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);
+}
+
+a {
+    text-decoration: none;
+}
+.fixedr{
+    width: 100%;
+    position: fixed;
+}
+
+.head {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #6617cb;
+    background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);
+}
+
+.h1 {
+    color: white;
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h6 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headerDiv {
+    background-color: #6617cb;
+    background-image: linear-gradient(315deg, #cb218e 0%, #6617cb 74%);
+    height: 30px;
+    padding-top: 10px;
+}
+
+.header {
+    list-style-type: none;
+    margin: 0px;
+
+}
+
+.li {
+    color: white;
+    float: left;
+    padding: 0px 100px 0px 100px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+
+ul li:hover {
+    background-color: #cb218e;
+    color: white;
+
+}
+
+.dataDiv {
+    padding-top: 150px;
+}
+.imgDiv {
+    float: left;
+    padding: 5px;
+    background-color: #6617cb;
+    background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);
+    margin-bottom: 30px;
+    height: 300px;
+}
+
+.articleDiv {
+    float: left;
+    width: 700px;
+    height: 300px;
+    padding: 5px;
+    background-color: #6617cb;
+    background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.number {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a #pilates{
+    background-color:  #6617cb;
+}
+a #pilates:hover{
+    background-color:  #cb218e;
+}
